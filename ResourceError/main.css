@@ -18,6 +18,7 @@ body
 .main_box
 {
     background-color:   #000000;
+    color:var(--box_bar_color); 
     width: 900px;
     height: 800px;
 

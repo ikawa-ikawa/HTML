@@ -1,7 +1,11 @@
+function goTop()
+{
+  location.href = "index.html";
+}
+
 function goIntroduction()
 {
-  // クリック時の動作を指定できます
-  location.href = "test.html";
+  location.href = "introduction.html";
 }
 
 function goTwitter()
