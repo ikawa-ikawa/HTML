@@ -2,6 +2,7 @@
 {
     --box_bar_color: #2196F3;
     --top_box_color: #8beeff79;
+    --chara_icon_scale: 1.2;
 }
 body
 {
@@ -229,6 +230,7 @@ body
     max-height: 100%;
     height: auto;
 }
+
   
 
   
@@ -466,6 +468,11 @@ body
     width: auto;
     max-height: 100%;
     height: auto;
+    transition: 0.2s;
+}
+.chara_iconbox_aoba img:hover
+{
+    transform:scale(var(--chara_icon_scale));
 }
 
 
@@ -486,6 +493,11 @@ body
     width: auto;
     max-height: 100%;
     height: auto;
+    transition: 0.2s;
+}
+.chara_iconbox_yurine img:hover
+{
+    transform:scale(var(--chara_icon_scale));
 }
 
 .chara_iconbox_sora
@@ -505,6 +517,11 @@ body
     width: auto;
     max-height: 100%;
     height: auto;
+    transition: 0.2s;
+}
+.chara_iconbox_sora img:hover
+{
+    transform:scale(var(--chara_icon_scale));
 }
 
 .chara_iconbox_siho
@@ -524,6 +541,11 @@ body
     width: auto;
     max-height: 100%;
     height: auto;
+    transition: 0.2s;
+}
+.chara_iconbox_siho img:hover
+{
+    transform:scale(var(--chara_icon_scale));
 }
 
 .chara_iconbox_takesi
@@ -543,6 +565,11 @@ body
     width: auto;
     max-height: 100%;
     height: auto;
+    transition: 0.2s;
+}
+.chara_iconbox_takesi img:hover
+{
+    transform:scale(var(--chara_icon_scale));
 }
 
 .chara_iconbox_nana
@@ -562,6 +589,11 @@ body
     width: auto;
     max-height: 100%;
     height: auto;
+    transition: 0.2s;
+}
+.chara_iconbox_nana img:hover
+{
+    transform:scale(var(--chara_icon_scale));
 }
 
 
