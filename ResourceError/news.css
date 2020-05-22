@@ -25,6 +25,24 @@ body
     margin: auto;
 }
 
+.newselement_box
+{
+    text-align:center;
+    width: 520px;
+    height: 25px;
+    
+    border: 1px solid;
+    border-color: #ffffff;
+
+    text-decoration: underline;
+    
+    text-align:center;
+    font-family: "serif",serif;
+
+    position: relative;
+    left: 10px;
+}
+
 .eyecatch_box
 {
     background-color:   #000000;
@@ -32,6 +50,7 @@ body
     text-align:center;
     width: 60%;
     height: 98%;
+    
     
     border: 2px solid;
     border-color: var(--box_bar_color); 
